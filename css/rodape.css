@@ -1,0 +1,63 @@
+.rodape{    
+    margin-top: 1rem;
+
+    background: #333333;
+}
+
+.rodape__map{
+    width: 9.6rem;
+    margin-top: 1.9rem;
+    margin-bottom: 1.9rem;
+    height: 8.5rem;
+}
+
+.rodape__informacoes{
+    font-size: 0.75rem;
+    color: #FFFFFF;
+}
+
+.rodape__informacoes--texto{
+    padding-top: 1rem;
+    padding-bottom: 0.6rem;
+}
+
+.rodape__informacoes--telefone, .rodape__informacoes--email{
+    text-decoration: none;
+    color: white;
+}
+
+.rodape p{
+    margin-top: 0.6rem;
+}
+
+.rodape__social{
+    margin-bottom: 0.6rem;
+    padding-top: 0.6rem;
+
+    text-transform: uppercase;
+}
+
+.rodape__social--media{
+    align-self: flex-end;
+    width: 1.3rem;
+}
+
+ul{
+    width: 5.9rem;
+}
+
+li{
+    padding-bottom: 0.6rem;
+}
+
+@media screen and (min-width: 768px){
+    .rodape__map{
+        width: initial;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .rodape__map{
+        width: initial;
+    }
+}

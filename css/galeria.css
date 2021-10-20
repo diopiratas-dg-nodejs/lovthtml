@@ -1,0 +1,12 @@
+.galeriaPortfolio  img{
+    width: 91%;
+
+    margin-left: 12px;
+    margin-bottom: 18px;
+}
+
+@media screen and (min-width: 768px) {
+    .galeriaPortfolio img{
+        margin-left: 25px;
+    }
+}

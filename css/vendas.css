@@ -1,0 +1,62 @@
+.vendas, .sales__sale{    
+    justify-content: center;
+
+    width: 15.5rem;
+    height: 14rem;
+    padding-bottom: 0.6rem;
+    margin-left: 4rem;
+
+    background: #EEEEEE;
+}
+
+.vendas{
+    margin-bottom: 1rem;
+}
+
+.vendas--price, .sales__sale--price{
+    font-size:1.6rem;
+    color: #888888;
+
+    margin-top: 0.8rem;
+    margin-left: 0.6rem;
+}
+
+.vendas--tag, .sales__sale--tag{
+    font-size: 1.3rem;
+    color: #FFFFFF;
+
+    background: #51D275;
+    width: 3rem;
+    padding-left: 0.6rem;
+    height: 1.3rem;
+    border-radius: 2rem;
+    align-self: flex-end;
+    position: relative;
+    top: -1.6rem;
+    right: 0.6rem;
+}
+
+.vendas--tag{
+    background: #DC9730;
+}
+
+.vendas--text, .sales__sale--text{
+    width: 14rem;
+    font-size:0.6rem;
+    color: #555555;
+    text-align: justify;
+
+    margin-left: 0.6rem;
+}
+
+@media screen and (min-width: 768px){
+    .sales{
+        width: 100%;
+    }
+
+    .vendas, .sales__sale{
+        width: 319px;
+        position: relative;
+        right: 32px;
+    }
+}
