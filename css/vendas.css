@@ -1,4 +1,6 @@
-.vendas, .sales__sale{    
+.sales__new, .sales__sale{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 
     width: 15.5rem;
@@ -9,11 +11,11 @@
     background: #EEEEEE;
 }
 
-.vendas{
+.sales__new{
     margin-bottom: 1rem;
 }
 
-.vendas--price, .sales__sale--price{
+.sales__new--price, .sales__sale--price{
     font-size:1.6rem;
     color: #888888;
 
@@ -21,7 +23,7 @@
     margin-left: 0.6rem;
 }
 
-.vendas--tag, .sales__sale--tag{
+.sales__new--tag, .sales__sale--tag{
     font-size: 1.3rem;
     color: #FFFFFF;
 
@@ -36,11 +38,11 @@
     right: 0.6rem;
 }
 
-.vendas--tag{
+.sales__sale--tag{
     background: #DC9730;
 }
 
-.vendas--text, .sales__sale--text{
+.sales__new--text, .sales__sale--text{
     width: 14rem;
     font-size:0.6rem;
     color: #555555;
@@ -52,9 +54,11 @@
 @media screen and (min-width: 768px){
     .sales{
         width: 100%;
+        display: flex;
+        justify-content: space-around;
     }
 
-    .vendas, .sales__sale{
+    .sales__new, .sales__sale{
         width: 319px;
         position: relative;
         right: 32px;

@@ -1,4 +1,7 @@
-.rodape{    
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     margin-top: 1rem;
 
     background: #333333;
@@ -31,6 +34,7 @@
 }
 
 .rodape__social{
+    display: flex;
     margin-bottom: 0.6rem;
     padding-top: 0.6rem;
 
@@ -43,6 +47,8 @@
 }
 
 ul{
+    display: flex;
+    justify-content: space-evenly;
     width: 5.9rem;
 }
 
